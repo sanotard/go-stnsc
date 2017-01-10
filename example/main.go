@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/STNS/STNS/stns"
-	"github.com/sona-tar/go-stnsc/stnsc"
+	"github.com/sonatard/go-stnsc/stnsc"
 )
 
 func main() {

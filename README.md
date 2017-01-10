@@ -1,7 +1,7 @@
 `go-stnsc` is a SNTS API Client and Authentication Module.
 ===============================
 
-[![GoDoc](https://godoc.org/github.com/sona-tar/go-stnsc?status.svg)](https://godoc.org/github.com/sona-tar/go-stnsc/stnsc)
+[![GoDoc](https://godoc.org/github.com/sonatard/go-stnsc?status.svg)](https://godoc.org/github.com/sonatard/go-stnsc/stnsc)
 
 `go-stnsc`  support STNS v2 JSON format.
 
@@ -14,7 +14,7 @@
 
 - Client Code:
 
-Server configulation. [stnsc.conf](https://github.com/sona-tar/docker-compose-stns/blob/master/stns.conf)
+Server configulation. [stnsc.conf](https://github.com/sonatard/docker-compose-stns/blob/master/stns.conf)
 ```go
 
 func main() {
@@ -100,11 +100,11 @@ tvm.fK/bB8zFNNofus6jQHXzMyiqCCqj0", GroupId:1001, Directory:"/home/example", She
 
 ## Demo
 - Create STNS Server
- - See [docker-compose-stns](https://github.com/sona-tar/docker-compose-stns)
+ - See [docker-compose-stns](https://github.com/sonatard/docker-compose-stns)
 
 - Client
 ```shell
-$ go get -v github.com/sona-tar/go-stnsc
-$ cd ${GOPATH}/src/github.com/sona-tar/go-stnsc/example
+$ go get -v github.com/sonatard/go-stnsc
+$ cd ${GOPATH}/src/github.com/sonatard/go-stnsc/example
 $ go run main.go
 ```

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/STNS/STNS/stns"
-	"github.com/sona-tar/go-stnsc/crypto"
+	"github.com/sonatard/go-stnsc/crypto"
 )
 
 var (
